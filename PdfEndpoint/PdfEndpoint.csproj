@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FastEndpoints" Version="3.8.1" />
+      <PackageReference Include="FastEndpoints.Swagger" Version="3.8.1" />
+      <PackageReference Include="itext7" Version="7.2.1" />
+      <PackageReference Include="PDFsharp" Version="1.51.5185-beta" />
+    </ItemGroup>
+
+</Project>
